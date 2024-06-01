@@ -222,7 +222,7 @@ export default function Header(){
                             </div>
                         </div>
                         <div class="w-full">
-                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span> I cant always be glued to the TV, but with this site, I never miss a single ball. Live scores, updates, and even commentary - its got everything I need to stay on top of the game. No more scrambling to find the channel or refreshing unreliable apps.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1"></span> I cant always be glued to the TV, but with this site, I never miss a single ball. Live scores, updates, and even commentary - its got everything I need to stay on top of the game. No more scrambling to find the channel or refreshing unreliable apps.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1"></span></p>
                         </div>
                     </div>
                     <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
@@ -235,7 +235,7 @@ export default function Header(){
                             </div>
                         </div>
                         <div class="w-full">
-                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>The live scorecard is incredibly detailed, providing stats for every player and every over. Its perfect for analyzing trends and performances. Plus, the historical data is a massive bonus.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1"></span>The live scorecard is incredibly detailed, providing stats for every player and every over. Its perfect for analyzing trends and performances. Plus, the historical data is a massive bonus.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1"></span></p>
                         </div>
                     </div>
                 </div>
@@ -250,7 +250,7 @@ export default function Header(){
                             </div>
                         </div>
                         <div class="w-full">
-                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>This Application is my secret weapon for staying in the loop. I can follow the live scores while I am on the go, checking in during work breaks or while commuting. It keeps me updated on the action without demanding my full attention.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1"></span>This Application is my secret weapon for staying in the loop. I can follow the live scores while I am on the go, checking in during work breaks or while commuting. It keeps me updated on the action without demanding my full attention.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1"></span></p>
                         </div>
                     </div>
                     <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
@@ -263,7 +263,7 @@ export default function Header(){
                             </div>
                         </div>
                         <div class="w-full">
-                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span> Its like watching the match with friends, even when you arere miles apart. It adds a whole new dimension to the viewing experience.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1"></span> Its like watching the match with friends, even when you arere miles apart. It adds a whole new dimension to the viewing experience.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1"></span></p>
                         </div>
                     </div>
                 </div>
@@ -278,7 +278,7 @@ export default function Header(){
                             </div>
                         </div>
                         <div class="w-full">
-                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Its a fantastic resource for anyone who s curious about the sport and wants to learn more. Now I can finally understand what my friends and family are talking about during matches!<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1"></span>Its a fantastic resource for anyone who s curious about the sport and wants to learn more. Now I can finally understand what my friends and family are talking about during matches!<span class="text-lg leading-none italic font-bold text-gray-400 ml-1"></span></p>
                         </div>
                     </div>
                     <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
@@ -291,7 +291,7 @@ export default function Header(){
                             </div>
                         </div>
                         <div class="w-full">
-                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span> This Application captures that old-school charm perfectly. The clean interface and focus on the core information - the score, the wickets, the partnerships -  reminds me of listening to the commentary on the radio back in the day.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1"></span> This Application captures that old-school charm perfectly. The clean interface and focus on the core information - the score, the wickets, the partnerships -  reminds me of listening to the commentary on the radio back in the day.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1"></span></p>
                         </div>
                     </div>
                 </div>
