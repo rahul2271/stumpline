@@ -1,5 +1,4 @@
 import Link from "next/link"
-import Image from "next/image"
 
 export default function Header(){
     return(
@@ -223,7 +222,7 @@ export default function Header(){
                             </div>
                         </div>
                         <div class="w-full">
-                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span> I can't always be glued to the TV, but with this site, I never miss a single ball. Live scores, updates, and even commentary - it's got everything I need to stay on top of the game. No more scrambling to find the channel or refreshing unreliable apps.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span> I cant always be glued to the TV, but with this site, I never miss a single ball. Live scores, updates, and even commentary - its got everything I need to stay on top of the game. No more scrambling to find the channel or refreshing unreliable apps.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
                         </div>
                     </div>
                     <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
@@ -236,7 +235,7 @@ export default function Header(){
                             </div>
                         </div>
                         <div class="w-full">
-                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>The live scorecard is incredibly detailed, providing stats for every player and every over. It's perfect for analyzing trends and performances. Plus, the historical data is a massive bonus.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>The live scorecard is incredibly detailed, providing stats for every player and every over. Its perfect for analyzing trends and performances. Plus, the historical data is a massive bonus.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
                         </div>
                     </div>
                 </div>
@@ -251,7 +250,7 @@ export default function Header(){
                             </div>
                         </div>
                         <div class="w-full">
-                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>This Application is my secret weapon for staying in the loop. I can follow the live scores while I'm on the go, checking in during work breaks or while commuting. It keeps me updated on the action without demanding my full attention.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>This Application is my secret weapon for staying in the loop. I can follow the live scores while I am on the go, checking in during work breaks or while commuting. It keeps me updated on the action without demanding my full attention.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
                         </div>
                     </div>
                     <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
@@ -264,7 +263,7 @@ export default function Header(){
                             </div>
                         </div>
                         <div class="w-full">
-                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span> It's like watching the match with friends, even when you're miles apart. It adds a whole new dimension to the viewing experience.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span> Its like watching the match with friends, even when you arere miles apart. It adds a whole new dimension to the viewing experience.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
                         </div>
                     </div>
                 </div>
@@ -279,7 +278,7 @@ export default function Header(){
                             </div>
                         </div>
                         <div class="w-full">
-                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>It's a fantastic resource for anyone who's curious about the sport and wants to learn more. Now I can finally understand what my friends and family are talking about during matches!<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Its a fantastic resource for anyone who s curious about the sport and wants to learn more. Now I can finally understand what my friends and family are talking about during matches!<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
                         </div>
                     </div>
                     <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
@@ -348,7 +347,7 @@ export default function Header(){
             
         </div>
         <p className="textbase mt-6 text-center text-gray-500">
-          Can&apos;t find what you&apos;re looking for?{' '}
+          Can&apos;t find what you&apos;re looking for?
           <a href="#" title="" className="font-semibold text-[#FF5E36] hover:underline">
             Contact our support
           </a>
