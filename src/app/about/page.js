@@ -12,11 +12,11 @@ export default function about(){
                     <br class="block sm:hidden" /> STUMPLINE
                 </h2>
                 <p class="max-w-lg mt-3 text-xl leading-relaxed text-gray-200 dark:text-gray-200 md:mt-8">
-                Stumpline is the ultimate destination for cricket enthusiasts like you! We're passionate about the game and committed to bringing you the fastest and most reliable live cricket scores.<br/><br/>
+                Stumpline is the ultimate destination for cricket enthusiasts like you! We are passionate about the game and committed to bringing you the fastest and most reliable live cricket scores.<br/><br/>
 
                 Gone are the days of frantically switching channels or refreshing unreliable apps. With Stumpline, you have everything you need right at your fingertips. Follow ball-by-ball commentary, in-depth statistics, and live score updates for all major cricket matches, domestic and international.<br/><br/>
 
-                But Stumpline is more than just scores. We're a community of cricket lovers. Stay connected, discuss the latest matches, and share your cricketing insights with fellow fans.<br/><br/>
+                But Stumpline is more than just scores. We are a community of cricket lovers. Stay connected, discuss the latest matches, and share your cricketing insights with fellow fans.<br/><br/>
 
                 Join Stumpline today and experience the thrill of cricket like never before!
                 </p>

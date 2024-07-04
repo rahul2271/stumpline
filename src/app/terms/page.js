@@ -17,7 +17,7 @@ export default function TermsOfService() {
           <section className="mb-6">
             <h2 className="text-2xl font-bold text-gray-800 mb-4">1. Introduction</h2>
             <p className="text-gray-700">
-              Welcome to Stumpline (the "Website"). By accessing and using this Website, you agree to comply with and be bound by these Terms of Service. If you disagree with any part of these terms, please do not use our Website.
+              Welcome to Stumpline (the Website). By accessing and using this Website, you agree to comply with and be bound by these Terms of Service. If you disagree with any part of these terms, please do not use our Website.
             </p>
           </section>
 

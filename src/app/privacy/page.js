@@ -17,7 +17,7 @@ export default function PrivacyPolicy() {
           <section className="mb-6">
             <h2 className="text-2xl font-bold text-gray-800 mb-4">1. Introduction</h2>
             <p className="text-gray-700">
-              Welcome to Stumpline (the "Website"). Stumpline is committed to protecting your privacy and ensuring
+              Welcome to Stumpline (the Website). Stumpline is committed to protecting your privacy and ensuring
               you have a positive experience on our website. This Privacy Policy outlines our practices regarding
               the collection and use of your personal information when you use our website.
             </p>
@@ -42,7 +42,7 @@ export default function PrivacyPolicy() {
               <ul className="list-disc list-inside">
                 <li>Providing and personalizing our services to improve your experience.</li>
                 <li>Communicating with you, including sending newsletters and promotional offers.</li>
-                <li>Analyzing and improving our website's performance and functionality.</li>
+                <li>Analyzing and improving our website performance and functionality.</li>
               </ul>
             </p>
           </section>
