@@ -104,13 +104,13 @@ export default function CardFour() {
           ))}
         </div>
 
-        {!showAll && (
+        {/* {!showAll && (
           <div className="place-content-center w-max mx-auto mt-[30px]">
             <Link href="/allseries/page.js" passHref>
               <button onClick={handleShowAllClick} className="border-1 w-[120px] h-[40px] bg-[#FF5E36] font-extrabold text-lg rounded-[40px] text-black hover:bg-[#FF5E36]/70">Show More</button>
             </Link>
           </div>
-        )}
+        )} */}
         {/* <iframe className="w-full h-[250px]" src="https://bwidget.crictimes.org/" frameBorder="0" scrolling="yes"></iframe> */}
       </div>
     </>
