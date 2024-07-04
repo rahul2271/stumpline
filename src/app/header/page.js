@@ -6,7 +6,7 @@ export default function header(){
         <>
 <div className='bg-gradient-to-l from-black via-gray-700 to-black  md:mx-auto md:w-full mx-auto w-full'>
 <img className=' mx-auto  relative  h-[150px] w-[195px] md:h-[160px] md:w-[210px] md:mx-[10px]' src="./Main.png" alt="stumpline" />
-    <ul className='mt-[-10px] md:mt-[-90px] md:pb-[50px] pb-[20px] flex   md:text-xl  md:place-content-center lg:flex md:space-x-6 lg:place-content-center text-[17px] text-[#FF5E36] space-x-6  place-content-center font-bold'>
+    <ul className='mt-[-10px] md:mt-[-90px] md:pb-[50px] pb-[20px] flex   md:text-xl  md:place-content-center lg:flex md:space-x-6 lg:place-content-center text-[17px] text-[#FF5E36] space-x-6  place-content-center font-light'>
       
       <li>
         <Link className="hover:text-white" href="/">
@@ -14,13 +14,13 @@ export default function header(){
         </Link>
       </li>
       <li>
-        <Link className="hover:text-white animate-pulse"  href="/services">
+        <Link className="hover:text-white animate-pulse"  href="/live">
         Live Score
         </Link>
       </li>
       <li>
-        <Link className="hover:text-white" href="/about">
-        About
+        <Link className="hover:text-white" href="/telegram">
+        Predictions
         </Link>
       </li>
       <li>

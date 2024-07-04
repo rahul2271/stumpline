@@ -1,3 +1,4 @@
+import next from 'next'
 
 import Link from 'next/link'
 
@@ -5,7 +6,7 @@ export default function footer(){
     return(
 <section className="justify-center mx-auto bg-gradient-to-l from-black via-gray-700 to-black relative overflow-hidden py-8">
 <div className="container relative z-10 mx-auto px-4">
-  <div className="-m-8 flex flex-wrap items-center justify-between">
+  <div className=" flex flex-wrap items-center justify-between">
     <div className="w-auto p-8">
       <a href="#">
         <div className="inline-flex items-center">
@@ -14,24 +15,29 @@ export default function footer(){
       </a>
     </div>
     <div className="place-content-center mx-auto p-8">
-      <ul className="md:-m-5 md:flex flex-wrap items-center">
+      <ul className="md:-m-5 font-light md:flex flex-wrap items-center">
         <li className="p-5">
-          <Link className="font-bold text-l text-[#FF5E36] hover:text-white" href="#">
+          <Link className=" text-l text-[#FF5E36] hover:text-white" href="/privacy">
             Privacy Policy
           </Link>
         </li>
         <li className="p-5">
-          <Link className="font-bold text-l text-[#FF5E36] hover:text-white" href="#">
+          <Link className=" text-l text-[#FF5E36] hover:text-white" href="/terms">
             Terms of Service
           </Link>
         </li>
         <li className="p-5">
-          <Link className="font-bold text-l text-[#FF5E36] hover:text-white" href="#">
-            Return Policy
+          <Link className="f text-l text-[#FF5E36] hover:text-white" href="/about">
+            About
           </Link>
         </li>
         <li className="p-5">
-          <Link className="font-bold text-l text-[#FF5E36] hover:text-white" href="#">
+          <Link className=" text-l text-[#FF5E36] hover:text-white" href="refund">
+            Refund Policy
+          </Link>
+        </li>
+        <li className="p-5">
+          <Link className=" text-l text-[#FF5E36] hover:text-white" href="/contact">
             Contact Us
           </Link>
         </li>
