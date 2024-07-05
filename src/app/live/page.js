@@ -28,10 +28,10 @@ export default function CardFour() {
 
       <div className="flex flex-col items-center justify-center  bg-white p-4">
         {/* <h1 className="text-4xl font-bold mb-8">Cricket Matches</h1> */}
-        <div className="flex space-x-4 mb-8">
+        <div className="flex  mb-8">
           <button
             onClick={() => setActiveSection('live')}
-            className={` py-3 px-6 rounded-lg shadow-md transition ${
+            className={` py-3 px-6 rounded-lg shadow-md font-bold transition ${
               activeSection === 'live'
                 ? 'bg-[#FF5E36] text-white'
                 : 'bg-white text-gray-800'
@@ -41,7 +41,7 @@ export default function CardFour() {
           </button>
           <button
             onClick={() => setActiveSection('upcoming')}
-            className={`py-3 px-6 rounded-lg shadow-md transition ${
+            className={`py-3 px-6 rounded-lg shadow-md font-bold transition ${
               activeSection === 'upcoming'
                 ? 'bg-[#FF5E36] text-white'
                 : 'bg-white text-gray-800'
