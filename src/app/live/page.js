@@ -150,39 +150,39 @@ export default function CardFour() {
     <>
       <header />
       
-    
+    <h1 className='text-2xl font-bold text-white md:mb-[20px] md:text-4xl text-center'>Live Match</h1>
       <div className="bg-gradient-to-l from-black via-gray-700 to-black">
         {matchesToShow.map((match, index) => (
-          <div key={index} className="bg-gradient-to-l from-black via-[#FF5E36]/40 to-black  flex w-full place-content-center mx-auto h-auto flex-col items-center  md:flex-row mb-4">
+          <div key={index} className="rounded-[50px] p-[20px] max-w-2xl md:max-w-5xl rounded-xl bg-white  flex w-full place-content-center mx-auto h-auto flex-col items-center  md:flex-row mb-4">
             <div className='flex gap-5'>
             <div className="h-full  w-full md:h-[150px] md:w-[150px]">
               <img
                 src={match.t1img}
                 alt={match.t1}
-                className="h-xl w-xl mx-auto w-auto item-center rounded-md object-cover min-h-[80px] min-w-[80px]"
+                className="h-xl w-xl mx-auto w-auto item-center rounded-full object-cover min-h-[80px] min-w-[80px]"
               />
             </div>
             <div className="md:hidden block h-full w-full md:h-[150px] md:w-[150px]">
               <img
                 src={match.t2img}
                 alt={match.t2}
-                className="h-xl w-xl mx-auto w-auto item-center rounded-md object-cover min-h-[80px] min-w-[80px]"
+                className="h-xl w-xl rounded-full mx-auto w-auto item-center rounded-full object-cover min-h-[80px] min-w-[80px]"
               />
             </div>
             </div>
             <div className="text-center md:text-left p-4">
-              <h1 className="inline-flex text-white items-center text-2xl font-medium">
+              <h1 className="inline-flex text-[#FF5E36] items-center text-2xl font-bold">
                 {match.t1} vs {match.t2}
               </h1>
-              <p className="mt-1 text-sm font-light text-gray-200">Scores: {match.t1s} - {match.t2s}</p>
-              <p className="mt-3 text-sm font-light text-gray-200">Date and Time: {new Date(match.dateTimeGMT).toLocaleString()}</p>
-              <p className="mt-3 text-sm font-light text-gray-200">{match.status}</p>
+              <p className="mt-1 text-sm font-medium  text-gray-900">Scores: {match.t1s} - {match.t2s}</p>
+              <p className="mt-3 text-sm font-medium text-gray-900">Date and Time: {new Date(match.dateTimeGMT).toLocaleString()}</p>
+              <p className="mt-3 text-sm font-medium text-gray-900">{match.status}</p>
               <div className="mt-4">
-                <span className="mb-2 mr-2 inline-block rounded-full bg-gray-100 px-3 py-1 text-[10px] font-semibold text-gray-900">
+                <span className="mb-2 mr-2 inline-block rounded-full bg-gray-800 px-3 py-1 text-[10px] font-semibold text-gray-100">
                   {match.series}
                 </span>
                 <Link href="/more" passHref>
-                  <button onClick={() => setShowAll(true)} className="border-1 w-[120px] h-[40px] bg-black font-light text-lg shadow-sm shadow-black rounded-[40px] text-white hover:bg-white/70">Show More</button>
+                  <button onClick={() => setShowAll(true)} className="border-1 w-[120px] h-[40px] bg-gray-800 font-light text-lg shadow-sm shadow-black rounded-[40px] text-white hover:bg-white/70">Show More</button>
                 </Link>
               </div>
             </div>
@@ -190,41 +190,42 @@ export default function CardFour() {
               <img
                 src={match.t2img}
                 alt={match.t2}
-                className="h-xl w-xl mx-auto w-auto item-center rounded-md object-cover min-h-[80px] min-w-[80px]"
+                className="h-xl w-xl mx-auto w-auto item-center rounded-full object-cover min-h-[80px] min-w-[80px]"
               />
             </div>
           </div>
         ))}
+    <h1 className=' mt-[70px] text-2xl font-bold text-white md:mt-[90px] md:mb-[10px] md:text-4xl text-center'>Upcomming Matches</h1>
 
-        <div className="mt-[50px]  md:flex justify-evenly bg-gradient-to-l from-black via-gray-700 to-black">
+        <div className="mt-[10px]  md:flex justify-evenly bg-gradient-to-l from-black via-gray-700 to-black">
           {matchData.slice(0, 2).map((match, index) => (
-            <div key={index} className=" bg-gradient-to-l from-black via-[#FF5E36]/40 to-black flex max-w-2xl flex-col items-center rounded-md border md:flex-row mb-4">
+            <div key={index} className=" rounded-[50px] p-[20px] bg-white flex max-w-2xl flex-col items-center rounded-md border md:flex-row mb-4">
               <div className='flex gap-5'>
               <div className="h-full w-full md:h-[200px] md:w-[300px]">
                 <img
                   src={match.t1img}
                   alt={match.t1}
-                  className="h-2xl w-xl mx-auto w-auto item-center rounded-md object-cover min-h-[100px] min-w-[100px]"
+                  className="h-2xl w-xl mx-auto w-auto item-center rounded-full object-cover min-h-[100px] min-w-[100px]"
                 />
               </div>
               <div className="md:hidden block h-full w-full md:h-[200px] md:w-auto">
                 <img
                   src={match.t2img}
                   alt={match.t2}
-                  className="h-2xl w-2xl rounded-md object-cover min-h-[100px] min-w-[100px]"
+                  className="h-2xl w-2xl rounded-full object-cover min-h-[100px] min-w-[100px]"
                 />
               </div>
               </div>
               <div>
                 <div className="text-center md:text-left p-4">
-                  <h1 className="inline-flex text-white items-center text-[50x] font-medium">
+                  <h1 className="inline-flex text-[#FF5E36] items-center text-[50x] font-bold">
                     {match.t1} vs {match.t2}
                   </h1>
-                  <p className="mt-1 text-sm font-light  text-gray-200">Scores: {match.t1s} - {match.t2s}</p>
-                  <p className="mt-3 text-sm font-light  text-gray-200">Date and Time: {new Date(match.dateTimeGMT).toLocaleString()}</p>
-                  <p className="mt-3 text-sm font-light text-gray-200">{match.status}</p>
+                  <p className="mt-1 text-sm font-medium  text-gray-800">Scores: {match.t1s} - {match.t2s}</p>
+                  <p className="mt-3 text-sm font-medium  text-gray-800">Date and Time: {new Date(match.dateTimeGMT).toLocaleString()}</p>
+                  <p className="mt-3 text-sm font-medium text-gray-800">{match.status}</p>
                   <div className="mt-4">
-                    <span className="mb-2 mr-2 inline-block rounded-full bg-gray-100 px-3 py-1 text-[10px] font-semibold text-gray-900">
+                    <span className="mb-2 mr-2 inline-block rounded-full bg-gray-800 px-3 py-1 text-[10px] font-semibold text-gray-100">
                       {match.series}
                     </span>
                   </div>
@@ -234,7 +235,7 @@ export default function CardFour() {
                 <img
                   src={match.t2img}
                   alt={match.t2}
-                  className="h-2xl w-2xl rounded-md object-cover min-h-[100px] min-w-[100px]"
+                  className="h-2xl rounded-full w-2xl object-cover min-h-[100px] min-w-[100px]"
                 />
               </div>
             </div>

@@ -15,29 +15,29 @@ export default function footer(){
       </a>
     </div>
     <div className="place-content-center mx-auto p-8">
-      <ul className="md:-m-5 font-light md:flex flex-wrap items-center">
+      <ul className="md:-m-5 font-medium md:flex flex-wrap items-center">
         <li className="p-5">
-          <Link className=" text-l text-[#FF5E36] hover:text-white" href="/privacy">
+          <Link className=" text-l text-white hover:text-white" href="/privacy">
             Privacy Policy
           </Link>
         </li>
         <li className="p-5">
-          <Link className=" text-l text-[#FF5E36] hover:text-white" href="/terms">
+          <Link className=" text-l text-white hover:text-white" href="/terms">
             Terms of Service
           </Link>
         </li>
         <li className="p-5">
-          <Link className="f text-l text-[#FF5E36] hover:text-white" href="/about">
+          <Link className="f text-l text-white hover:text-white" href="/about">
             About
           </Link>
         </li>
         <li className="p-5">
-          <Link className=" text-l text-[#FF5E36] hover:text-white" href="refund">
+          <Link className=" text-l text-white hover:text-white" href="refund">
             Refund Policy
           </Link>
         </li>
         <li className="p-5">
-          <Link className=" text-l text-[#FF5E36] hover:text-white" href="/contact">
+          <Link className=" text-l text-white hover:text-white" href="/contact">
             Contact Us
           </Link>
         </li>

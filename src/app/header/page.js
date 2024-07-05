@@ -6,7 +6,7 @@ export default function header(){
         <>
 <div className='bg-gradient-to-l from-black via-gray-700 to-black  md:mx-auto md:w-full mx-auto w-full'>
 <img className='  relative left-0 top-0  h-[80px] w-[95px] md:h-[160px] md:w-[210px] md:mx-[10px]' src="./Main.png" alt="stumpline" />
-    <ul className='mt-[-10px] md:mt-[-90px] md:pb-[50px] pb-[20px] flex   md:text-xl  md:place-content-center lg:flex md:space-x-6 lg:place-content-center text-[17px] text-[#FF5E36] space-x-6  place-content-center font-light'>
+    <ul className='mt-[-10px] md:mt-[-90px] md:pb-[50px] pb-[20px] flex   md:text-xl  md:place-content-center lg:flex md:space-x-6 lg:place-content-center text-[17px] text-white space-x-6  place-content-center font-medium'>
       
       <li>
         <Link className="hover:text-white" href="/">
