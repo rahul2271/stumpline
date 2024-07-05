@@ -26,12 +26,12 @@ export default function CardFour() {
     <>
       <header />
 
-      <div className="flex flex-col items-center justify-center  bg-white p-4">
+      <div className="flex flex-col items-center justify-center p-4">
         {/* <h1 className="text-4xl font-bold mb-8">Cricket Matches</h1> */}
         <div className="flex  mb-8">
           <button
             onClick={() => setActiveSection('live')}
-            className={` py-3 px-6 rounded-lg shadow-md font-bold transition ${
+            className={` py-3 px-6  shadow-md font-bold transition ${
               activeSection === 'live'
                 ? 'bg-[#FF5E36] text-white'
                 : 'bg-white text-gray-800'
@@ -41,7 +41,7 @@ export default function CardFour() {
           </button>
           <button
             onClick={() => setActiveSection('upcoming')}
-            className={`py-3 px-6 rounded-lg shadow-md font-bold transition ${
+            className={`py-3 px-6  shadow-md font-bold transition ${
               activeSection === 'upcoming'
                 ? 'bg-[#FF5E36] text-white'
                 : 'bg-white text-gray-800'
@@ -52,7 +52,7 @@ export default function CardFour() {
         </div>
         <div className="w-full">
           {activeSection === 'live' && (
-            <div className="bg-white p-4 rounded-lg shadow-md">
+            <div className=" p-4 rounded-lg shadow-md">
               {/* <h2 className="text-2xl font-bold mb-4">Live Score</h2> */}
               {matchesToShow.map((match, index) => (
                 <div key={index} className="rounded-[60px] p-[20px] max-w-2xl md:max-w-5xl bg-gray-300 flex w-full place-content-center mx-auto h-auto flex-col items-center md:flex-row mb-4">
@@ -88,10 +88,10 @@ export default function CardFour() {
             </div>
           )}
           {activeSection === 'upcoming' && (
-            <div className="bg-white p-4 rounded-lg shadow-md">
+            <div className="bg-gray-200 p-4 rounded-lg shadow-md">
               <h2 className="text-2xl font-bold mb-4">Upcoming Matches</h2>
               {matchData.slice(0, 2).map((match, index) => (
-                <div key={index} className="rounded-[50px] p-[20px] bg-white flex max-w-2xl flex-col items-center rounded-md border md:flex-row mb-4">
+                <div key={index} className="rounded-[50px] p-[20px]  flex max-w-2xl flex-col items-center rounded-md border md:flex-row mb-4">
                   <div className='flex gap-5'>
                     <div className="h-full w-full md:h-[200px] md:w-[300px]">
                       <img src={match.t1img} alt={match.t1} className="h-2xl w-xl mx-auto w-auto rounded-full object-cover min-h-[100px] min-w-[100px]" />
