@@ -171,7 +171,7 @@ export default function CardFour() {
             </div>
             </div>
             <div className="text-center md:text-left p-4">
-              <h1 className="inline-flex text-[#FF5E36] items-center text-2xl font-bold">
+              <h1 className="inline-flex text-[#FF5E36] items-center text-xl md:text-2xl font-bold">
                 {match.t1} vs {match.t2}
               </h1>
               <p className="mt-1 text-sm font-medium  text-gray-900">Scores: {match.t1s} - {match.t2s}</p>
