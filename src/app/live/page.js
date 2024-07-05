@@ -150,10 +150,10 @@ export default function CardFour() {
     <>
       <header />
       
-    <h1 className='text-2xl font-bold text-white md:mb-[20px] md:text-4xl text-center'>Live Match</h1>
+    <h1 className='text-2xl mt-[30px] font-bold text-white md:mb-[20px] text-4xl md:text-4xl animate-bounce text-center'>Live Match</h1>
       <div className="bg-gradient-to-l from-black via-gray-700 to-black">
         {matchesToShow.map((match, index) => (
-          <div key={index} className="rounded-[50px] p-[20px] max-w-2xl md:max-w-5xl rounded-xl bg-white  flex w-full place-content-center mx-auto h-auto flex-col items-center  md:flex-row mb-4">
+          <div key={index} className="rounded-[60px] p-[20px] max-w-2xl md:max-w-5xl rounded-xl bg-white  flex w-full place-content-center mx-auto h-auto flex-col items-center  md:flex-row mb-4">
             <div className='flex gap-5'>
             <div className="h-full  w-full md:h-[150px] md:w-[150px]">
               <img
@@ -195,7 +195,7 @@ export default function CardFour() {
             </div>
           </div>
         ))}
-    <h1 className=' mt-[70px] text-2xl font-bold text-white md:mt-[90px] md:mb-[10px] md:text-4xl text-center'>Upcomming Matches</h1>
+    <h1 className=' mt-[70px] text-2xl font-bold text-white md:mt-[90px] md:mb-[10px] animate-pulse text-3xl md:text-4xl text-center'>Upcomming Matches</h1>
 
         <div className="mt-[10px]  md:flex justify-evenly bg-gradient-to-l from-black via-gray-700 to-black">
           {matchData.slice(0, 2).map((match, index) => (
