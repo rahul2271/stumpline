@@ -88,3 +88,50 @@ body {
   hr{
     color:#FF5E36
   }
+
+
+
+  /* Editor CSS */
+
+.ql-align-center {
+  text-align: center !important;
+}
+.blog-content .ql-align-right {
+  text-align: right;
+}
+
+.blog-content .ql-align-left {
+  text-align: left;
+}
+
+.blog-content .ql-align-justify {
+  text-align: justify;
+}
+
+.ql-editor img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
+
+.ql-editor img:hover {
+  outline: 2px dashed #000;
+}
+
+.ql-editor img::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 0;
+  padding-top: 75%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.ql-editor img.resizable {
+  resize: both;
+  overflow: auto;
+}
