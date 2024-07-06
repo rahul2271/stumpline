@@ -1,5 +1,6 @@
 import Link from "next/link"
 
+
 export default function Home(){
     return(
         <>
@@ -47,7 +48,7 @@ export default function Home(){
         <div className="rounded-full bg-white p-1 px-2">
           <p className="text-sm font-medium">We&apos; Live</p>
         </div>
-        <p className="text-sm font-medium">Join our app &rarr;</p>
+        <p className="text-sm font-medium">Join our Live Line &rarr;</p>
       </div>
       <h1 className="mt-8 text-3xl font-medium tracking-tight text-[#FF5E36] md:text-4xl lg:text-6xl animate-fade-in">
         Live Cricket Scores: Faster Than a Yorker!
@@ -55,13 +56,13 @@ export default function Home(){
       <p className="mt-8 text-lg text-gray-100 animate-fade-in-delay">
         Every ball, every boundary, every wicket - all delivered instantly so you never miss a moment of the action. Get the fastest live cricket scores on the web, right here!
       </p>
-      <div>
-        <button
-          type="button"
+      <div className="mt-[20px]">
+        <Link
+          href='./live'
           className="mt-8 rounded-md bg-[#FF5E36] animate-pulse px-3 py-2.5 text-sm font-semibold text-black shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
         >
-          Download Now
-        </button>
+          Live Scores
+        </Link>
       </div>
     </div>
     <div className="relative lg:col-span-5 lg:-mr-8 xl:col-span-6 animate-slide-in-right">
@@ -229,7 +230,7 @@ export default function Home(){
       </div>
       <h3 className="mt-8 text-lg font-semibold text-[#FF5E36]">Light & Dark Version</h3>
       <p className="mt-4 text-sm text-gray-300">
-        You can use our application as long as you want without hurting your eyes.
+        comming soon.
       </p>
     </div>
     <div className="transform transition-transform duration-500 hover:scale-105 animate-slide-in">
@@ -262,7 +263,7 @@ export default function Home(){
         <div class="w-full max-w-6xl mx-auto">
             <div class="text-center max-w-xl mx-auto">
                 <h1 class="text-6xl md:text-7xl font-bold mb-5 text-[#FF5E36]">What people <br/>are saying.</h1>
-                <h3 class="text-xl mb-5 font-light text-[#FF5E36]">Our exclusive appliation users.</h3>
+                <h3 class="text-xl mb-5 font-light text-[#FF5E36]">Our exclusive users.</h3>
                 <div class="text-center mb-10">
                     <span class="inline-block w-1 h-1 rounded-full bg-[#FF5E36] ml-1"></span>
                     <span class="inline-block w-3 h-1 rounded-full bg-[#FF5E36] ml-1"></span>
@@ -311,7 +312,7 @@ export default function Home(){
                             </div>
                         </div>
                         <div class="w-full">
-                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1"></span>This Application is my secret weapon for staying in the loop. I can follow the live scores while I am on the go, checking in during work breaks or while commuting. It keeps me updated on the action without demanding my full attention.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1"></span></p>
+                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1"></span>This Web is my secret weapon for staying in the loop. I can follow the live scores while I am on the go, checking in during work breaks or while commuting. It keeps me updated on the action without demanding my full attention.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1"></span></p>
                         </div>
                     </div>
                     <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
@@ -352,7 +353,7 @@ export default function Home(){
                             </div>
                         </div>
                         <div class="w-full">
-                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1"></span> This Application captures that old-school charm perfectly. The clean interface and focus on the core information - the score, the wickets, the partnerships -  reminds me of listening to the commentary on the radio back in the day.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1"></span></p>
+                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1"></span> This web captures that old-school charm perfectly. The clean interface and focus on the core information - the score, the wickets, the partnerships -  reminds me of listening to the commentary on the radio back in the day.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1"></span></p>
                         </div>
                     </div>
                 </div>
@@ -393,13 +394,13 @@ export default function Home(){
               type="button"
               className="flex w-full items-center justify-between px-4 py-5 sm:p-6"
             >
-              <span className="flex text-lg font-semibold text-white">Is the app free to use?</span>
+              <span className="flex text-lg font-semibold text-white">Is the website free to use?</span>
 
           
             </button>
             <div className="px-4 pb-5 sm:px-6 sm:pb-6">
               <p className="text-gray-300">
-              Our app offers a basic version with essential features like live scores and ball-by-ball commentary free of charge. We may also offer a premium version with additional features like detailed player statistics, in-depth match analysis, or ad-free viewing (if applicable)
+              Our Website offers a basic version with essential features like live scores and ball-by-ball commentary free of charge. We may also offer a premium version with additional features like detailed player statistics, in-depth match analysis, or ad-free viewing (if applicable)
               </p>
             </div>
           </div>
