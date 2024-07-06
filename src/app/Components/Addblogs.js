@@ -177,9 +177,9 @@ const AddBlogs = () => {
         </div>
         <div className="w-full p-2">
           <p className="text-red-500 mb-2">
-            ** Please click only once the Upload Button and wait for alert
-            message, don't press multiple times, it will lead to store mutiple
-            response for same above data.
+          ** Please click only once the Upload Button and wait for alert
+  message, don&apos;t press multiple times, it will lead to store multiple
+  responses for same above data.
           </p>
           <button
             type="submit"
