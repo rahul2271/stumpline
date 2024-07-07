@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useRef } from "react";
+//import ReactQuill from "react-quill";
 import dynamic from "next/dynamic";
 import "react-quill/dist/quill.snow.css";
 import { db, storage } from "../../../firebase";
@@ -8,7 +9,7 @@ import { collection, addDoc, updateDoc, doc } from "firebase/firestore";
 import { ref, uploadBytes, getDownloadURL } from "firebase/storage";
 
 // Dynamically import ReactQuill
-const ReactQuill = dynamic(() => import("react-quill"), { ssr: false });
+const ReactQuill = dynamic(() => import('react-quill'), { ssr: false });
 
 const AddBlogs = () => {
   const [blogData, setBlogData] = useState({
@@ -132,6 +133,7 @@ const AddBlogs = () => {
               "link",
               "image",
             ]}
+           
             placeholder="Write something amazing..."
             style={{ color: "black", backgroundColor: "white" }}
           />
@@ -181,9 +183,7 @@ const AddBlogs = () => {
         </div>
         <div className="w-full p-2">
           <p className="text-red-500 mb-2">
-            ** Please click only once the Upload Button and wait for alert
-            message, don't press multiple times, it will lead to store multiple
-            responses for same above data.
+          ** Please click only once the Upload Button and wait for alert message, do not press multiple times, it will lead to store multiple responses for same above data.
           </p>
           <button
             type="submit"
