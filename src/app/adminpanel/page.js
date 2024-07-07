@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { onAuthStateChanged } from 'firebase/auth';
 import { auth } from '../../../firebase';
+import Dashboard from '../components/dashboard';
 
 export default function AdminPanel() {
   const router = useRouter();
@@ -25,7 +26,7 @@ export default function AdminPanel() {
 
   return (
     <div>
-      <h1>Welcome to the Admin Panel</h1>
+      <Dashboard/>
     </div>
   );
 }
