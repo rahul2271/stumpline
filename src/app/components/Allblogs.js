@@ -89,7 +89,7 @@ const AllBlogs = () => {
   };
 
   return (
-    <div className="container mx-auto mt-5 h-[800px] overflow-hidden">
+    <div className="container mx-auto mt-5 h-[800px] overflow-scroll">
       <h1 className="text-2xl font-semibold mb-4 text-white">Blog List</h1>
       <table className="min-w-full bg-gray-700 border-collapse border border-gray-300 w-full text-white">
         <thead>

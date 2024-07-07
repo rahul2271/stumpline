@@ -55,12 +55,12 @@ export default function BlogPostPage() {
   priority={true}
         />
       </div>
-      <h1 className=' text-center my-10 text-3xl uppercase'>{post.title}</h1>
+      <h1 className=' text-center my-10 text-3xl uppercase text-white font-bold'>{post.title}</h1>
       <div
-        className={`${styles['blog-content']} my-5`}
+        className={`${styles['blog-content']} my-5 text-justify`}
         dangerouslySetInnerHTML={{ __html: post.content }}
       ></div>
-      <p className='text-sm text-gray-400 mb-5 text-end pr-5'><em>By {post.author} on {post.date}</em></p>
+      <p className='text-sm text-gray-400 mb-5 mt-10 text-end pr-5'><em>By <b className=' font-bold text-gray-300 italic'>{post.author}</b> on {post.date}</em></p>
       <hr className='border border-gray-500' />
     </div>
   );

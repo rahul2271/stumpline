@@ -35,8 +35,8 @@ export default function Dashboard() {
       </span>
       <div
         className={`fixed top-0 bottom-0 lg:left-0 p-2 w-[300px] overflow-y-auto text-center bg-gray-900 transition-transform transform ${
-          isSidebarOpen ? 'translate-x-0' : '-translate-x-full'
-        } lg:translate-x-0`}
+          isSidebarOpen ? 'translate-x-0 ' : '-translate-x-full'
+        } lg:translate-x-0 `}
       >
         <div className="text-gray-100 text-xl">
           <div className="p-2.5 mt-1 flex items-center">
@@ -69,7 +69,9 @@ export default function Dashboard() {
         </div>
         <div className="my-4 bg-gray-600 h-[1px]"></div>
       </div>
-      <div className="flex-1 p-4 ml-[300px] bg-gray-700">
+      <div className={`flex-1 p-4 ml-[300px] bg-gray-700 ${
+          isSidebarOpen ? 'translate-x-0 ' : ' -translate-x-[300px] min-w-full mt-20 '
+        } lg:translate-x-0`}>
         {renderComponent()}
       </div>
     </div>
