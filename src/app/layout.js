@@ -23,7 +23,7 @@ const poppins = Poppins({
 export default function RootLayout({ children }) {
   const pathname = usePathname();
 
-  const noHeaderFooterPaths = ['/adminpanel', '/adminlogin']; 
+  const noHeaderFooterPaths = ['/adminpanel', '/Login']; 
 
   const hideHeaderFooter = noHeaderFooterPaths.some((path) => pathname.startsWith(path));
 
