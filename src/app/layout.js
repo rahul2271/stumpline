@@ -2,7 +2,7 @@
 'use client';
 
 import { usePathname } from 'next/navigation';
-import { AuthProvider } from './AuthContext';
+// import { AuthProvider } from './AuthContext';
 
 import { Poppins } from 'next/font/google';
 import "./globals.css";
@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
   const hideHeaderFooter = noHeaderFooterPaths.some((path) => pathname.startsWith(path));
 
   return (
-    <AuthProvider>
+    // <AuthProvider>
     <html lang="en">
       <body className={poppins.className}>
         {hideHeaderFooter ? (
@@ -42,6 +42,6 @@ export default function RootLayout({ children }) {
         )}
       </body>
     </html>
-    </AuthProvider>
+    // </AuthProvider>
   );
 }

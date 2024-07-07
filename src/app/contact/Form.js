@@ -130,14 +130,14 @@ const Form = () => {
         </div>
       </div>
 
-      <div class="mb-3">
-              <label for="basic-url" class="form-label">
+      <div className="mb-3">
+              <label for="basic-url" className="form-label">
                 Phone Number *
               </label>
-              <div class="input-group">
+              <div className="input-group">
                 <input
                   type="number"
-                  class="form-control  bg-black border"
+                  className="form-control  bg-black border"
                   id="basic-url"
                   aria-describedby="basic-addon3 basic-addon4"
                   required

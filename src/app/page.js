@@ -258,102 +258,102 @@ export default function Home(){
 
 
         {/* TESTIMONIAL */}
-        <div class="bg-gradient-to-l from-black via-gray-700 to-black min-w-screen min-h-screen flex items-center justify-center">
-    <div class="w-full  border-gray-200 px-5 py-16 md:py-24 text-gray-800">
-        <div class="w-full max-w-6xl mx-auto">
-            <div class="text-center max-w-xl mx-auto">
-                <h1 class="text-6xl md:text-7xl font-bold mb-5 text-[#FF5E36]">What people <br/>are saying.</h1>
-                <h3 class="text-xl mb-5 font-light text-[#FF5E36]">Our exclusive users.</h3>
-                <div class="text-center mb-10">
-                    <span class="inline-block w-1 h-1 rounded-full bg-[#FF5E36] ml-1"></span>
-                    <span class="inline-block w-3 h-1 rounded-full bg-[#FF5E36] ml-1"></span>
-                    <span class="inline-block w-40 h-1 rounded-full bg-[#FF5E36]"></span>
-                    <span class="inline-block w-3 h-1 rounded-full bg-[#FF5E36] ml-1"></span>
-                    <span class="inline-block w-1 h-1 rounded-full bg-[#FF5E36] ml-1"></span>
+        <div className="bg-gradient-to-l from-black via-gray-700 to-black min-w-screen min-h-screen flex items-center justify-center">
+    <div className="w-full  border-gray-200 px-5 py-16 md:py-24 text-gray-800">
+        <div className="w-full max-w-6xl mx-auto">
+            <div className="text-center max-w-xl mx-auto">
+                <h1 className="text-6xl md:text-7xl font-bold mb-5 text-[#FF5E36]">What people <br/>are saying.</h1>
+                <h3 className="text-xl mb-5 font-light text-[#FF5E36]">Our exclusive users.</h3>
+                <div className="text-center mb-10">
+                    <span className="inline-block w-1 h-1 rounded-full bg-[#FF5E36] ml-1"></span>
+                    <span className="inline-block w-3 h-1 rounded-full bg-[#FF5E36] ml-1"></span>
+                    <span className="inline-block w-40 h-1 rounded-full bg-[#FF5E36]"></span>
+                    <span className="inline-block w-3 h-1 rounded-full bg-[#FF5E36] ml-1"></span>
+                    <span className="inline-block w-1 h-1 rounded-full bg-[#FF5E36] ml-1"></span>
                 </div>
             </div>
-            <div class="-mx-3 md:flex items-start">
-                <div class="px-3 md:w-1/3">
-                    <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
-                        <div class="w-full flex mb-4 items-center">
-                            <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
+            <div className="-mx-3 md:flex items-start">
+                <div className="px-3 md:w-1/3">
+                    <div className="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
+                        <div className="w-full flex mb-4 items-center">
+                            <div className="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
                                 <img src="./man.png" alt=""/>
                             </div>
-                            <div class="flex-grow pl-3">
-                                <h6 class="font-bold text-sm uppercase text-gray-600">Ajay Kumar, Chennai</h6>
+                            <div className="flex-grow pl-3">
+                                <h6 className="font-bold text-sm uppercase text-gray-600">Ajay Kumar, Chennai</h6>
                             </div>
                         </div>
-                        <div class="w-full">
-                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1"></span> I cant always be glued to the TV, but with this site, I never miss a single ball. Live scores, updates, and even commentary - its got everything I need to stay on top of the game. No more scrambling to find the channel or refreshing unreliable apps.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1"></span></p>
+                        <div className="w-full">
+                            <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1"></span> I cant always be glued to the TV, but with this site, I never miss a single ball. Live scores, updates, and even commentary - its got everything I need to stay on top of the game. No more scrambling to find the channel or refreshing unreliable apps.<span className="text-lg leading-none italic font-bold text-gray-400 ml-1"></span></p>
                         </div>
                     </div>
-                    <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
-                        <div class="w-full flex mb-4 items-center">
-                            <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
+                    <div className="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
+                        <div className="w-full flex mb-4 items-center">
+                            <div className="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
                                 <img src="./women.png" alt=""/>
                             </div>
-                            <div class="flex-grow pl-3">
-                                <h6 class="font-bold text-sm uppercase text-gray-600">Priya Sharma, Mumbai</h6>
+                            <div className="flex-grow pl-3">
+                                <h6 className="font-bold text-sm uppercase text-gray-600">Priya Sharma, Mumbai</h6>
                             </div>
                         </div>
-                        <div class="w-full">
-                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1"></span>The live scorecard is incredibly detailed, providing stats for every player and every over. Its perfect for analyzing trends and performances. Plus, the historical data is a massive bonus.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1"></span></p>
+                        <div className="w-full">
+                            <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1"></span>The live scorecard is incredibly detailed, providing stats for every player and every over. Its perfect for analyzing trends and performances. Plus, the historical data is a massive bonus.<span className="text-lg leading-none italic font-bold text-gray-400 ml-1"></span></p>
                         </div>
                     </div>
                 </div>
-                <div class="px-3 md:w-1/3">
-                    <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
-                        <div class="w-full flex mb-4 items-center">
-                            <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
+                <div className="px-3 md:w-1/3">
+                    <div className="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
+                        <div className="w-full flex mb-4 items-center">
+                            <div className="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
                                 <img src="man.png" alt=""/>
                             </div>
-                            <div class="flex-grow pl-3">
-                                <h6 class="font-bold text-sm uppercase text-gray-600">Rahul Kapoor, Delhi</h6>
+                            <div className="flex-grow pl-3">
+                                <h6 className="font-bold text-sm uppercase text-gray-600">Rahul Kapoor, Delhi</h6>
                             </div>
                         </div>
-                        <div class="w-full">
-                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1"></span>This Web is my secret weapon for staying in the loop. I can follow the live scores while I am on the go, checking in during work breaks or while commuting. It keeps me updated on the action without demanding my full attention.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1"></span></p>
+                        <div className="w-full">
+                            <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1"></span>This Web is my secret weapon for staying in the loop. I can follow the live scores while I am on the go, checking in during work breaks or while commuting. It keeps me updated on the action without demanding my full attention.<span className="text-lg leading-none italic font-bold text-gray-400 ml-1"></span></p>
                         </div>
                     </div>
-                    <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
-                        <div class="w-full flex mb-4 items-center">
-                            <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
+                    <div className="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
+                        <div className="w-full flex mb-4 items-center">
+                            <div className="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
                                 <img src="man.png" alt=""/>
                             </div>
-                            <div class="flex-grow pl-3">
-                                <h6 class="font-bold text-sm uppercase text-gray-600">Ali Khan, Bangalore</h6>
+                            <div className="flex-grow pl-3">
+                                <h6 className="font-bold text-sm uppercase text-gray-600">Ali Khan, Bangalore</h6>
                             </div>
                         </div>
-                        <div class="w-full">
-                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1"></span> Its like watching the match with friends, even when you arere miles apart. It adds a whole new dimension to the viewing experience.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1"></span></p>
+                        <div className="w-full">
+                            <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1"></span> Its like watching the match with friends, even when you arere miles apart. It adds a whole new dimension to the viewing experience.<span className="text-lg leading-none italic font-bold text-gray-400 ml-1"></span></p>
                         </div>
                     </div>
                 </div>
-                <div class="px-3 md:w-1/3">
-                    <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
-                        <div class="w-full flex mb-4 items-center">
-                            <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
+                <div className="px-3 md:w-1/3">
+                    <div className="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
+                        <div className="w-full flex mb-4 items-center">
+                            <div className="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
                                 <img src="./women.png" alt=""/>
                             </div>
-                            <div class="flex-grow pl-3">
-                                <h6 class="font-bold text-sm uppercase text-gray-600">Nikita Verma, Kolkata</h6>
+                            <div className="flex-grow pl-3">
+                                <h6 className="font-bold text-sm uppercase text-gray-600">Nikita Verma, Kolkata</h6>
                             </div>
                         </div>
-                        <div class="w-full">
-                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1"></span>Its a fantastic resource for anyone who s curious about the sport and wants to learn more. Now I can finally understand what my friends and family are talking about during matches!<span class="text-lg leading-none italic font-bold text-gray-400 ml-1"></span></p>
+                        <div className="w-full">
+                            <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1"></span>Its a fantastic resource for anyone who s curious about the sport and wants to learn more. Now I can finally understand what my friends and family are talking about during matches!<span className="text-lg leading-none italic font-bold text-gray-400 ml-1"></span></p>
                         </div>
                     </div>
-                    <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
-                        <div class="w-full flex mb-4 items-center">
-                            <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
+                    <div className="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
+                        <div className="w-full flex mb-4 items-center">
+                            <div className="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
                                 <img src="man.png" alt=""/>
                             </div>
-                            <div class="flex-grow pl-3">
-                                <h6 class="font-bold text-sm uppercase text-gray-600">Vijay Singh, Bhopal</h6>
+                            <div className="flex-grow pl-3">
+                                <h6 className="font-bold text-sm uppercase text-gray-600">Vijay Singh, Bhopal</h6>
                             </div>
                         </div>
-                        <div class="w-full">
-                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1"></span> This web captures that old-school charm perfectly. The clean interface and focus on the core information - the score, the wickets, the partnerships -  reminds me of listening to the commentary on the radio back in the day.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1"></span></p>
+                        <div className="w-full">
+                            <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1"></span> This web captures that old-school charm perfectly. The clean interface and focus on the core information - the score, the wickets, the partnerships -  reminds me of listening to the commentary on the radio back in the day.<span className="text-lg leading-none italic font-bold text-gray-400 ml-1"></span></p>
                         </div>
                     </div>
                 </div>

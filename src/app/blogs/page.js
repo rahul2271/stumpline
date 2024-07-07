@@ -51,7 +51,7 @@ export default function BlogPage() {
                       alt={blog.title} 
                       width={600} 
                       height={400} 
-                      layout="responsive" 
+                      style={{ width: '100%', height: '100%', objectFit:'cover' }}
                     />
                   </div>
                   <div className="p-4">
