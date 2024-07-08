@@ -841,8 +841,7 @@ export default function CardFour() {
                 </div>
               </div>
               ))}
-            </div>
-              ))}
+      
             </div>
           )}
         </div>
