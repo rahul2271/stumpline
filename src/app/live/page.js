@@ -716,6 +716,8 @@ export default function CardFour() {
 
   const liveMatches = matchData.filter(match => match.status == "Match started");
   const matchesToShow = showAll ? liveMatches : liveMatches.slice(0, 1);
+  const recentMatches = recentMatchData.filter(match => match.matchEnded === true);
+
 
   return (
     <>
@@ -809,9 +811,44 @@ export default function CardFour() {
               ))}
             </div>
           )}
+          {activeSection === 'recent' && (
+            <div className="p-4 rounded-lg shadow-md flex flex-col items-center">
+              {recentMatches.map((match, index) => (
+               <div key={index} className="rounded-[20px] p-[20px] bg-white flex w-full place-content-center mx-auto h-auto flex-col items-center md:flex-row mb-4">
+                <div className='flex justify-center gap-5'>
+                  <div className="h-full w-full md:h-[50px] md:w-[50px]">
+                    <img src={match.t1img} alt={match.t1} className="h-[50px] w-[50px] mx-auto rounded-full object-cover" />
+                  </div>
+                  <div className="md:hidden block h-full w-full md:h-[50px] md:w-[50px]">
+                    <img src={match.t2img} alt={match.t2} className="h-[50px] w-[50px] rounded-full mx-auto object-cover" />
+                  </div>
+                </div>
+                <div className="text-center md:text-left p-4">
+                  <h1 className="inline-flex text-[#FF5E36] items-center text-xl md:text-2xl font-bold">
+                    {match.t1} vs {match.t2}
+                  </h1>
+                  <p className="mt-1 text-sm font-medium text-gray-900">Scores: {match.t1s} - {match.t2s}</p>
+                  <p className="mt-3 text-sm font-medium text-gray-900">Date and Time: {new Date(match.dateTimeGMT).toLocaleString()}</p>
+                  <p className="mt-3 text-sm font-medium text-gray-900">{match.status}</p>
+                  <div className="mt-4">
+                    <span className="mb-2 mr-2 inline-block rounded-full bg-gray-800 px-3 py-1 text-[10px] font-semibold text-gray-100">
+                      {match.series}
+                    </span>
+                  </div>
+                </div>
+                <div className="md:block hidden h-full w-full md:h-[50px] md:w-[50px]">
+                  <img src={match.t2img} alt={match.t2} className="h-[50px] w-[50px] mx-auto rounded-full object-cover" />
+                </div>
+              </div>
+              ))}
+            </div>
+              ))}
+            </div>
+          )}
         </div>
       </div>
     </>
   );
 }
+
 
