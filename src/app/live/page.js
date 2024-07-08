@@ -8,7 +8,7 @@
 //   const [activeSection, setActiveSection] = useState('live');
 
 //   useEffect(() => {
-//     fetch('https://api.cricapi.com/v1/cricScore?apikey=bb294ef3-66a8-437a-9688-c7738a2af26e')
+//     fetch('https://api.cricapi.com/v1/currentMatches?apikey=bb294ef3-66a8-437a-9688-c7738a2af26e&offset=0')
 //       .then(response => response.json())
 //       .then(data => {
 //         setMatchData(data.data);
