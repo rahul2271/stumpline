@@ -855,11 +855,6 @@ export default function CardFour() {
                       <p className="mt-1 text-sm font-medium text-gray-800">Scores: {match.score[0]?.r}-{match.score[0]?.w} ({match.score[0]?.o}) - {match.score[1]?.r}-{match.score[1]?.w} ({match.score[1]?.o})</p>
                       <p className="mt-3 text-sm font-medium text-gray-800">Date and Time: {new Date(match.dateTimeGMT).toLocaleString()}</p>
                       <p className="mt-3 text-sm font-medium text-gray-800">{match.status}</p>
-                      // <div className="mt-4">
-                      //   <span className="mb-2 mr-2 inline-block rounded-full bg-gray-800 px-3 py-1 text-[10px] font-semibold text-gray-100">
-                      //     {match.series_id}
-                      //   </span>
-                      // </div>
                     </div>
                   </div>
                   <div className="md:block hidden h-full w-full md:h-[50px] md:w-[50px]">
