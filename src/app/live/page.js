@@ -890,7 +890,7 @@ export default function CardFour() {
           // Transforming data to include venue information
           const transformedData = data.data.map(match => ({
             ...match,
-            venue: match.venue || 'Venue information not available'
+            venue: match.venue || 'Venue not available'
           }));
           setMatchData(prevData => [...prevData, ...transformedData]);
         } else {
@@ -910,7 +910,7 @@ export default function CardFour() {
           // Transforming data to include venue information
           const transformedData = data.data.map(match => ({
             ...match,
-            venue: match.venue || 'Venue information not available'
+            venue: match.venue || 'Venue not available'
           }));
           setRecentMatchData(prevData => [...prevData, ...transformedData]);
         } else {
