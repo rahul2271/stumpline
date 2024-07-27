@@ -2,10 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { db, storage } from '../../../firebase';
 import { collection, getDocs, deleteDoc, doc, updateDoc } from 'firebase/firestore';
 import { ref, uploadBytes, getDownloadURL } from 'firebase/storage';
-import dynamic from 'next/dynamic';
-import 'react-quill/dist/quill.snow.css';
+import SunEditor from 'suneditor-react';
+import 'suneditor/dist/css/suneditor.min.css';
 
-const ReactQuill = dynamic(() => import('react-quill'), { ssr: false });
 
 const stripHtmlTags = (html) => {
   const tmp = document.createElement("DIV");
@@ -142,20 +141,27 @@ const AllBlogs = () => {
               className="border border-gray-300 px-4 py-2 rounded-md w-full mb-4 bg-gray-700 text-white"
             />
             <label className="block font-medium text-white mb-2">Content</label>
-            <ReactQuill
-              value={currentBlog?.content || ''}
+            <SunEditor
+              setContents={currentBlog?.content || ''}
               onChange={(value) => setCurrentBlog({ ...currentBlog, content: value })}
-              className="mb-4 bg-gray-700 text-black"
-              modules={{
-                toolbar: [
-                  [{ 'header': '1'}, {'header': '2'}, { 'font': [] }],
-                  [{ 'list': 'ordered'}, { 'list': 'bullet' }],
-                  ['bold', 'italic', 'underline'],
-                  [{ 'align': [] }],
-                  ['image', 'video'],
-                ]
+              setOptions={{
+                height: 200,
+                buttonList: [
+                  ['undo', 'redo'],
+                  ['font', 'fontSize', 'formatBlock'],
+                  ['paragraphStyle', 'blockquote'],
+                  ['bold', 'underline', 'italic', 'strike', 'subscript', 'superscript'],
+                  ['fontColor', 'hiliteColor', 'textStyle'],
+                  ['removeFormat'],
+                  ['outdent', 'indent'],
+                  ['align', 'horizontalRule', 'list', 'lineHeight'],
+                  ['table', 'link', 'image', 'video', 'audio'], // media
+                  ['fullScreen', 'showBlocks', 'codeView'],
+                  ['print'],
+                  ['save', 'template'],
+                ],
               }}
-              style={{ color: 'black', backgroundColor: 'white' }}
+              className="mb-4"
             />
             <label className="block font-medium text-white mb-2">Date</label>
             <input

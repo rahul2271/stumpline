@@ -1,15 +1,11 @@
 'use client';
 
 import React, { useState, useRef } from "react";
-//import ReactQuill from "react-quill";
-import dynamic from "next/dynamic";
-import "react-quill/dist/quill.snow.css";
+import SunEditor from 'suneditor-react';
+import 'suneditor/dist/css/suneditor.min.css'; // Import SunEditor's CSS
 import { db, storage } from "../../../firebase";
 import { collection, addDoc, updateDoc, doc } from "firebase/firestore";
 import { ref, uploadBytes, getDownloadURL } from "firebase/storage";
-
-// Dynamically import ReactQuill
-const ReactQuill = dynamic(() => import('react-quill'), { ssr: false });
 
 const AddBlogs = () => {
   const [blogData, setBlogData] = useState({
@@ -27,8 +23,8 @@ const AddBlogs = () => {
     setBlogData({ ...blogData, [e.target.name]: e.target.value });
   };
 
-  const handleContentChange = (value) => {
-    setBlogData({ ...blogData, content: value });
+  const handleContentChange = (content) => {
+    setBlogData({ ...blogData, content });
   };
 
   const handleImageUpload = (e) => {
@@ -100,42 +96,25 @@ const AddBlogs = () => {
         </div>
         <div className="w-full p-2">
           <label className="block text-white font-semibold mb-2">Content</label>
-          <ReactQuill
-            value={blogData.content}
-            onChange={handleContentChange}
-            className="border rounded-md w-full bg-gray-700 text-white"
-            theme="snow"
-            modules={{
-              toolbar: {
-                container: [
-                  [{ header: "1" }, { header: "2" }, { font: [] }],
-                  [{ size: [] }],
-                  [{ list: "ordered" }, { list: "bullet" }],
-                  ["bold", "italic", "underline"],
-                  [{ color: [] }, { background: [] }],
-                  [{ align: [] }],
-                  ["link", "image"],
-                ],
-              },
+          <SunEditor 
+            setOptions={{
+              height: 200,
+              buttonList: [
+                ['undo', 'redo'],
+                ['font', 'fontSize', 'formatBlock'],
+                ['paragraphStyle', 'blockquote'],
+                ['bold', 'underline', 'italic', 'strike', 'subscript', 'superscript'],
+                ['fontColor', 'hiliteColor', 'textStyle'],
+                ['removeFormat'],
+                ['outdent', 'indent'],
+                ['align', 'horizontalRule', 'list', 'lineHeight'],
+                ['table', 'link', 'image', 'video', 'audio'], // media
+                ['fullScreen', 'showBlocks', 'codeView'],
+                ['print'],
+                ['save', 'template'],
+              ],
             }}
-            formats={[
-              "header",
-              "font",
-              "size",
-              "bold",
-              "italic",
-              "underline",
-              "list",
-              "bullet",
-              "align",
-              "color",
-              "background",
-              "link",
-              "image",
-            ]}
-           
-            placeholder="Write something amazing..."
-            style={{ color: "black", backgroundColor: "white" }}
+            onChange={handleContentChange}
           />
         </div>
         <div className="w-full p-2">

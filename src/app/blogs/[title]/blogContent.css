@@ -1,0 +1,174 @@
+.blog-content {
+  font-family: sans-serif;
+  line-height: 1.6;
+  color: white;
+  word-wrap: break-word;
+}
+
+.blog-content h1, .blog-content h2, .blog-content h3, .blog-content h4, .blog-content h5, .blog-content h6 {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.blog-content h1{
+font-size: 3em;
+}
+
+.blog-content h2{
+  font-size: 2em;
+    }
+
+.blog-content p {
+  margin-bottom: 1em;
+}
+
+.blog-content ul, .blog-content ol {
+  padding-left: 1.5em;
+  margin-bottom: 1em;
+}
+
+.blog-content ul {
+  list-style-type: disc;
+}
+
+.blog-content ol {
+  list-style-type: decimal;
+}
+
+.blog-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+.blog-content blockquote {
+  border-left: 4px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  color: white;
+}
+
+.blog-content .ql-align-center {
+  text-align: center !important;
+}
+
+.blogContent_blog-content__fqfLN p{
+  text-align: center !important;
+}
+
+.blog-content .ql-align-right {
+  text-align: right;
+}
+
+.blog-content .ql-align-left {
+  text-align: left;
+}
+
+.blog-content .ql-align-justify {
+  text-align: justify;
+}
+
+hr{
+border: rgba(128, 128, 128, 0.409) solid 1px;
+}
+
+
+/* SUN EDITOR CSS */
+
+/* General styling for SunEditor components */
+.se-component {
+margin: 0 auto;
+text-align: center;
+}
+
+.se-image-container {
+max-width: 100%;
+height: auto;
+display: block;
+margin: 1em auto;
+}
+
+.__se__float-center {
+display: block;
+margin: 0 auto;
+}
+
+.se-image-container.__se__float-left {
+float: left;
+margin: 1em 1em 1em 0;
+}
+
+.se-image-container.__se__float-right {
+float: right;
+margin: 1em 0 1em 1em;
+}
+
+/* Table styling */
+tbody, table{
+text-align: center;
+margin: 2em 0 !important;
+}
+.se-table-container {
+width: 100%;
+overflow-x: auto;
+margin: 1em 0 ;
+
+}
+
+.se-table-container table {
+width: 100%;
+border-collapse: collapse;
+table-layout: fixed;
+word-wrap: break-word;
+}
+
+.se-table-container table th,
+.se-table-container table td {
+border: 1px solid #ddd;
+padding: 8px;
+text-align: center;
+}
+
+.se-table-container table th {
+background-color: #f2f2f2;
+text-align: center;
+}
+
+.se-table-container table td {
+background-color: #fff;
+text-align: center;
+}
+
+/* Additional customization */
+.se-component p {
+margin: 1em 0;
+line-height: 1.6;
+}
+
+.se-component h1, .se-component h2, .se-component h3, .se-component h4, .se-component h5, .se-component h6 {
+margin: 1em 0;
+font-weight: bold;
+}
+
+/* Transparent background and white text */
+.sun-editor {
+background-color: transparent !important;
+color: white !important;
+border: none !important;
+}
+
+.sun-editor .sun-editor-editable {
+background-color: transparent !important;
+color: white !important;
+}
+
+.sun-editor .se-container {
+background-color: transparent !important;
+color: white !important;
+}
+
+.sun-editor .se-wrapper,
+.sun-editor .se-wrapper-inner,
+.sun-editor .se-wrapper .se-editor {
+background-color: transparent !important;
+color: white !important;
+}
