@@ -18,7 +18,7 @@ export default function BlogPage() {
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
-        const blogsCollection = collection(db, 'blogs');
+        const blogsCollection = collection(db, 'blog');
         const blogsSnapshot = await getDocs(blogsCollection);
         const blogsList = blogsSnapshot.docs.map(doc => {
           const data = doc.data();

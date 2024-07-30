@@ -24,9 +24,9 @@ export default function header(){
         </Link>
       </li>
       <li>
-        <Link className="hover:text-white" href="/blogs">
+        {/* <Link className="hover:text-white" href="/blog">
         Blogs
-        </Link>
+        </Link> */}
       </li>
       {/* <li>
         <Link className="hover:text-mypurple" href="/rctechadminpanel">

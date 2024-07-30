@@ -14,7 +14,7 @@ export default function AdminPanel() {
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (user) => {
       if (!user) {
-        router.push('/Login');
+        router.push('/Live');
     } else {
         setLoading(false);
       }
@@ -26,7 +26,8 @@ export default function AdminPanel() {
 
   return (
     <div>
-      <Dashboard/>
+      {/* <Dashboard/> */}
+      Closed
     </div>
   );
 }
